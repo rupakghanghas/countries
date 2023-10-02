@@ -10,11 +10,10 @@ gap=pd.DataFrame(gap)
 st.set_page_config(page_title="countries")
 st.title("EXPLORATORY DATA ANALYSIS ON COUNTRIES DATASET")
 st.markdown("<hr>", unsafe_allow_html=True)
-st.write("""_GROUP MEMBERS
-22BCE10127 Rupak
-22BCE10745 Akshat Agrawal
-22BCE10837Prince Choudhary
-22BCG10079 MOHAK GOPALE._""")
+st.write("TEAM MEMBERS")
+st.markdown("- RUPAK 22BCE10127")
+st.markdown("- Another bullet point.")
+st.markdown("- And one more bullet point.")
 st.markdown("<hr>", unsafe_allow_html=True)
 btn_1=st.button("click here to compare different countries")
 btn_2=st.button("click here for EDA")
