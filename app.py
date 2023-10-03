@@ -99,8 +99,8 @@ Population and Life Expectancy: The chart's segments provide a visual representa
 # sidebar
 st.sidebar.title("compare 2 countries")
 country_opt=gap['country'].unique()
-country1=st.sidebar.selectbox("select ",country_opt)
-country2=st.sidebar.selectbox("selec ",country_opt)
+country1=st.sidebar.selectbox("first country ",country_opt)
+country2=st.sidebar.selectbox("second country ",country_opt)
 btn_3=st.sidebar.button("click to compare")
 if btn_3:
     # LIFE EXP OVER THE YEARS
